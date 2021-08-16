@@ -14,6 +14,10 @@
     "state": "processing",
     "channelID": "TGDD",
     "merchantID": 123,
+    "reason": {
+        "code": 123456,
+        "message": "nothing"
+    },
     "instrument": {
         "type": "card",
         "number": "123-123-123-123",
@@ -39,6 +43,10 @@
     "state": "failed",
     "channelID": "TGDD",
     "merchantID": 123,
+    "reason": {
+        "code": 123456,
+        "message": "nothing"
+    },
     "instrument": {
         "type": "card",
         "number": "123-123-123-123",
@@ -64,6 +72,10 @@
     "state": "success",
     "channelID": "TGDD",
     "merchantID": 123,
+    "reason": {
+        "code": 123456,
+        "message": "nothing"
+    },
     "instrument": {
         "type": "card",
         "number": "123-123-123-123",
