@@ -36,7 +36,32 @@
     "message": "payment transaction at Mills and Sons using card ending with ***8183 for YER 796.81 in account ***37592658",
     "amount": "662.47",
     "currency": "VND",
-    "state": "processing",
+    "state": "failed",
+    "channelID": "TGDD",
+    "merchantID": 123,
+    "instrument": {
+        "type": "card",
+        "number": "123-123-123-123",
+        "name": "Test Name",
+        "issuer": {
+            "bankCode": "ACB",
+            "bankName": "Ngân hàng Á Châu"
+        }
+    }
+},  {
+    "_id": "3",
+    "createdAt": "2021-08-14T04:18:29.832Z",
+    "expireTime": "2021-08-14T04:18:29.832Z",
+    "updateTime": "2021-08-14T04:18:29.832Z",
+    "requestId": "Thông tin đơn hàng",
+    "name": "Auto Loan Account",
+    "account": "56816611",
+    "merchantTransId": "3333333333",
+    "code": 97365,
+    "message": "payment transaction at Mills and Sons using card ending with ***8183 for YER 796.81 in account ***37592658",
+    "amount": "662.47",
+    "currency": "VND",
+    "state": "success",
     "channelID": "TGDD",
     "merchantID": 123,
     "instrument": {
